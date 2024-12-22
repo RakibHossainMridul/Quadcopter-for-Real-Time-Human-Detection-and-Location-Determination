@@ -14,7 +14,7 @@ The drone employs a dual-configuration imaging system that has undergone iterati
 Detection System Architecture
 The system implements two distinct operational modes:
 1. Onboard Processing: Direct human detection and bounding box generation on the Raspberry Pi
-2. Server-based Processing: Raw data transmission to a server PC for processing
+2. Server-based Processing: Raw data transmission from **Client RaspberryPi** to a **Server PC** for processing.
    Alternatively, the processing can be done on server PC.
 
 Object Detection Implementation
